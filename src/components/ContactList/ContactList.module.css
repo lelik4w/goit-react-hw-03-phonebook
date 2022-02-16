@@ -1,0 +1,33 @@
+.ContactList {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ContactList li {
+  font-size: 12px;
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 7px 0;
+}
+
+.ContactList li span {
+  font-size: 13px;
+  color: #8b8ead;
+}
+
+.ContactList li button {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  font-size: 12px;
+  line-height: 1;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #e2e1e7;
+  border-radius: 50%;
+}
